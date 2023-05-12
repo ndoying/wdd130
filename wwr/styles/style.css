@@ -1,5 +1,5 @@
 #content{
-    max-width: 1600;
+    max-width: 1600px;
     margin: 0 auto;
 }
 nav a{
@@ -68,7 +68,7 @@ h4{
     color: black;
 }
 .logo, .icon{
-    width: 80x;
+    width: 80px;
 }
 #hero-img{
     width: 100%;

@@ -27,7 +27,7 @@ nav a:hover{
 }
 #background{
     height: 725px;
-    color: #FFD166;
+    background-color: #FFD166;
 }
 .book, .join{
     background-color: #FFD166;

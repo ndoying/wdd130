@@ -1,0 +1,32 @@
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+img{
+    grid-column: 1;
+    grid-row: 1;
+}
+#background{
+    height: 650px;
+    background-color: lightgrey;
+    grid-column: 2;
+    grid-row: 1;
+}
+h1{
+    font-size: 200px;
+    text-align: center;
+    grid-column:1/ span 2;
+    grid-row: 1;
+    z-index: 1;
+}
+p{
+    font-size: 100px;
+    color: red;
+    grid-column: 2;
+    grid-row: 1;
+    z-index: 1;
+    text-align:center;
+    display: grid;
+    align-content: end;
+}

@@ -224,3 +224,45 @@ msg p{
         margin-top: 25px;
     }
 }
+/* page 2 */
+
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: space-evenly;
+    justify-items: center;
+    
+}
+
+.page2-card1, .page2-card2, .page2-card3 {
+    width: 550px;
+    padding: 40px;
+    border: 1px solid #0a0a0a;
+    align-self: center;
+    
+}
+.page2-box1, .page2-box2, .page2-box3 {
+    width: 550px;
+    padding: 40px;
+    border: 1px solid #0a0a0a;
+    font-family: 'Inconsolata', Helvetica, sans-serif;
+    font-size: 1.0em;
+
+}
+.river-card-img{
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+    justify-self: center;
+    align-self: center;
+}
+.page2-card1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+ }  
+.page2-box2{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}

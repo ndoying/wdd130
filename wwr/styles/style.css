@@ -35,7 +35,7 @@ nav a{
 }
 .home-title{
     color: black;
-    font-size: 2em;
+    font-size: 3em;
     margin-top: 10px;
 }
 .button-box{
@@ -135,6 +135,7 @@ footer .social img{
 }
 h4{
     color: black;
+    font-size: 1.5em;
 }
 h2{
     margin: 0;
@@ -226,11 +227,12 @@ msg p{
 }
 /* page 2 */
 
+
 .rivers-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
+    grid-gap: 20px;
     justify-content: space-evenly;
     justify-items: center;
     

@@ -170,4 +170,88 @@ h2{
 }
 /* page 2 */
 
+#hero2{
+    width: 100%;
+    position: relative;
+}
+#hero-img{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    z-index: 1;
+    padding: 10px;
+}
+#hero-msg2{
+    position:absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+#hero-msg2 h1, #hero-msg2 h4{
+    text-align: center;
+    color:#136F63;
+    font-size: 2em;
+    font-weight: 1000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#hero p{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 0px;
+    padding: 35px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #004E98;
+}
 
+.home-grid2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Two columns with 1/3 and 2/3 widths */
+    gap: 20px;
+    box-sizing: border-box;
+    margin-top: 250px;
+}
+
+.grid-item2 {
+    background-color: #FFA400;
+    padding: 25px;
+}
+
+.home-grid2 img {
+    width: 100%;
+    height: auto;
+    margin-top: 25%;
+    outline: 2px solid black;
+
+}
+.home-grid3 {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns with 2/3 and 1/3 width */
+    gap: 20px;
+    box-sizing: border-box;
+}
+.grid-item2 {
+    background-color: #FFA400;
+    padding: 25px;
+}
+
+.home-grid3 img {
+    width: 100%;
+    height: auto;
+    margin-top: 25%;
+    outline: 2px solid black;
+
+}
+.text-underline {
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.bold-text {
+    font-weight: bold;
+}
